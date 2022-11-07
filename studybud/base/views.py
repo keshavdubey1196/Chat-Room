@@ -27,6 +27,7 @@ def createRoom(request):
     context = {"form": form}
     return render(request, "base/room_form.html", context)
 
+#To update the data in the existing rooms and make changes to the database:
 def updateRoom(request,pk):
     room=Room.objects.get(id=pk)
     form=RoomForm(instance=room)
@@ -39,6 +40,8 @@ def updateRoom(request,pk):
     context={"form":form}
     return render(request, "base/room_form.html", context)
 
+
+#To delete a specific room and make changes to the database:
 def deleteRoom(request,pk):
     room=Room.objects.get(id=pk)
     if request.method == "POST":
