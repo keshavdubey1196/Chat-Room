@@ -175,4 +175,4 @@ def deleteMessage(request,pk):
 
 @login_required(login_url="login")
 def updateUser(request):
-    pass
+    return render(request, "base/update-user.html")
