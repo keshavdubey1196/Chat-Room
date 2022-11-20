@@ -1,9 +1,6 @@
-from django.http import JsonResponse
+from django.urls import path
+from . import views
 
-
-def getRoutes(request):
-    routes=[
-        "GET/api/rooms",
-        "GET /api/rooms/:id"
-    ]
-    return JsonResponse(routes,safe=False)
+urlpattern=[
+    path("",views.getRoutes),
+]
