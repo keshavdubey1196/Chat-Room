@@ -1,2 +1,1 @@
-# Chat-Room
-Chat Room using Django
+Used Django in backend and performming operations like url routing, creating database to store the data, authorization and authentication using Django's libraries, API to fetch data from the website, CRUD operations, user logout, login and registration options.
