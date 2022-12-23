@@ -2,6 +2,6 @@ This app is built using Django (Python) Technology. In this app we can create ro
 
 Following Operations are included in this app:
 * URL routing
-* To perform user actions like add, update, delete, create the existing or new data (CRUD) in the database.
+* User actions like add, update, delete, create the existing or new data (CRUD) in the database.
 * Authentication and Authorization to limit the usage according to the privileges of the specific user.
-* Simple API to fetch room data from the app
+* API to fetch room data from the app
