@@ -4,4 +4,3 @@ Following Operations are included in this app:
 * URL routing
 * User actions like add, update, delete, create the existing or new data (CRUD) in the database.
 * Authentication and Authorization to limit the usage according to the privileges of the specific user.
-* API to fetch room data from the app
